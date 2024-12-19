@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticketerra</title>
+    <link rel="icon" href="imagenes/LogoFavicon.jpg" />
+  <link rel="stylesheet" href="styleLoguearse.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="imagenes/LogoTipo.png" alt="Logo" />
+      </a>
+      <h1>Ticketerra</h1>
+    </div>
+    <button class="hamburger" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav">
+      <nav class="nav">
+        <a href="index.html" class="nav-link" id="link-home">Inicio</a>
+        <a href="verTickets.html" class="nav-link" id="link-tickets">Mis Tickets</a>
+        <a href="crearTicket.html" class="nav-link" id="link-create">Crear Ticket</a>
+        <a class="nav-link bi bi-person-circle" href="loguearse.html" id="link-login"></a>
+      </nav>
+    </nav>
+  </header>
+  <main>
+    <div class="form-container">
+      <p class="title">Iniciar Sesión</p>
+      <form class="form">
+        <div class="input-group">
+          <label for="username">Usuario</label>
+          <input type="text" name="username" id="username" placeholder="">
+        </div>
+        <div class="input-group">
+          <label for="password">Contraseña</label>
+          <input type="password" name="password" id="password" placeholder="">
+          <div class="forgot">
+            <a rel="noopener noreferrer" href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+        </div>
+        <button class="sign">Iniciar Sesión</button>
+      </form>
+      <div class="social-message">
+        <div class="line"></div>
+        <p class="message">Inicia sesión con redes sociales</p>
+        <div class="line"></div>
+      </div>
+      <div class="social-icons">
+        <button class="icon">
+          <i class="fab fa-google"></i>
+        </button>
+        <button class="icon">
+          <i class="fab fa-twitter"></i>
+        </button>
+      </div>
+      <p class="signup">¿No tienes una cuenta?
+        <a href="registro.html" class="">Regístrate</a>
+      </p>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
